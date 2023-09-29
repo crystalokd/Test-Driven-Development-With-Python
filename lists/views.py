@@ -5,7 +5,6 @@ from lists.models import Item
 
 # Create your views here.
 def home_page(request):
-    
     return render(request, 'home.html')
 
 
